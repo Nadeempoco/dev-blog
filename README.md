@@ -76,7 +76,7 @@ The files in this repository are:
 [this is a link](https://www.google.com)
 
 and below is a my picture, this might be my brand... <br>
-## I dont need to wear sunglasses if I can erase my eyes :) :D
+**I dont need to wear sunglasses if I can erase my eyes :) :D**
 
 ![this is an image](assets/img/noeyes.png)
 
