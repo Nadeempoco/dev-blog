@@ -1,5 +1,7 @@
 # MY DEV-BLOG
 
+***You can access my dev-blog [here](https://nadeempoco.github.io/dev-blog/)***
+
 ## **WHAT THIS REPOSITORY IS?**
 
 This repository contains the dev-blog project; my personal blog which I developed while learning coding at **powercoders**. The website has ~~three~~ two pages: a *the **home** page*, *the **about** page*, ~~and *the **posts** page*~~.
