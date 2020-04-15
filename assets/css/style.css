@@ -101,6 +101,7 @@ HELPER CLAoSSES
 .white-txt {color: wheat;}
 .box-shad {box-shadow: 0 1px 1px 0 #999999, 0 1px 20px 0 #999999;}
 .fixed-position {position: fixed; width: 100%;}
+.chron-order {display: flex; flex-direction: column-reverse;}
 
 
 .padding-x-1 {padding-left: 1rem; padding-right: 1rem;}
