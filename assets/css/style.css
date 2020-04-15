@@ -19,7 +19,10 @@ html {
 /* Facefont icomoon */
 @font-face {
   font-family: icoMoon;
-  src: url(assets/icons/icomoon.woff);
+  src: url(assets/icons/icomoon.eot) ;
+  src: url(assets/icons/icomoon.eot?#iefix) format('embedded-opentype'), 
+    url(assets/icons/icomoon.woff) format('woff'),
+    url(assets/icons/icomoon.ttf) format('truetype');
 }
 .icons {font-family: icoMoon; font-size: 1.5rem;}
 .indie {font-family: 'Indie Flower', cursive; font-size: 1.5rem; font-weight: 400;}
