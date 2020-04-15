@@ -16,15 +16,6 @@ html {
 /* #endregion */
 
 /* SINGLE COMMENT */
-/* Facefont icomoon */
-@font-face {
-  font-family: icoMoon;
-  src: url(assets/icons/icomoon.eot) ;
-  src: url(assets/icons/icomoon.eot?#iefix) format('embedded-opentype'), 
-    url(assets/icons/icomoon.woff) format('woff'),
-    url(assets/icons/icomoon.ttf) format('truetype');
-}
-.icons {font-family: icoMoon; font-size: 1.5rem;}
 .indie {font-family: 'Indie Flower', cursive; font-size: 1.5rem; font-weight: 400;}
 
 /* BASIC FORMATTING
@@ -105,6 +96,7 @@ HELPER CLAoSSES
 .box-shad {box-shadow: 0 1px 1px 0 #999999, 0 1px 20px 0 #999999;}
 .fixed-position {position: fixed; width: 100%;}
 .chron-order {display: flex; flex-direction: column-reverse;}
+.large-font {font-size: 1.5rem;}
 
 
 .padding-x-1 {padding-left: 1rem; padding-right: 1rem;}
