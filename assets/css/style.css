@@ -97,6 +97,7 @@ HELPER CLAoSSES
 .fixed-position {position: fixed; width: 100%;}
 .chron-order {display: flex; flex-direction: column-reverse;}
 .large-font {font-size: 1.5rem;}
+.xl-font {font-size: 2rem;}
 
 
 .padding-x-1 {padding-left: 1rem; padding-right: 1rem;}
@@ -191,6 +192,17 @@ HELPER CLAoSSES
 .capitalize {text-transform: capitalize;}
 
 .about-main-title {font-size: 3rem; font-weight: 900; color: #333333; opacity: 20%;}
+pre {
+  background: #111111;
+  margin: 1rem 3rem 1rem 3rem;
+  border: 1px solid #777;
+  font-family: monospace;
+  color: #ecf0f1;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  overflow: auto;
+	overflow-y: hidden;
+}
 
 /* ------------------------------
 LAYOUT
@@ -200,3 +212,12 @@ LAYOUT
 /* ------------------------------
 MEDIA QUERIES
 --------------------------------- */
+
+@media print {
+	pre {
+		overflow-x: auto;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		background: #fff;
+	}
+}
