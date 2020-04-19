@@ -7,10 +7,10 @@
 This repository contains the dev-blog project; my personal blog which I developed while learning coding at **powercoders**. The website has ~~three~~ two pages: a *the **home** page*, *the **about** page*, ~~and *the **posts** page*~~.
 
 ## **PAGES STRUCTURE**
-The format is left simple, the three pages has the same headder and footer. The **headder** is fixed and contains a logo, a horizontal navigation bar, an image with caption, and social media logos links. The **footer** contains some credit.
+The format is left simple, the three pages has the same headder and footer. The **headder** is fixed and contains a logo, a horizontal navigation bar, an image with caption, and social media links. The **footer** contains some credit.
 
 1. ### THE HOME PAGE - ***index.html***:
-    This page is the landing page. It shows three blog posts with an abstract for each post. The posts are either featured or most recent.
+    This page is the landing page. It shows ~~three~~ all my blog posts with an abstract for each post. The posts are ~~either featured or most recent~~ listed by the most recent top.
 
 2. ### THE ABOUT PAGE - ***about.html***:
       This page contains three sections:
@@ -75,13 +75,13 @@ The files in this repository are:
 - [ ] an unchecked checkbox
 - [x] a checked checkbox
 
-[this is a link](https://www.google.com)
+[this is a link to google](https://www.google.com)
 
-and below is a my picture, this might be my brand... <br>
+and below is an image... <br>
 
-## I dont need to wear sunglasses if I can erase my eyes :) :D
+## A banksy art from bethlehem - Palestine
 
-![this is an image](assets/img/noeyes.png)
+![this is an image from the internet](https://amp.thenational.ae/image/policy:1.690244:1514123494/AC25-ART-banksy.jpg?w=500)
 
 
 ## CLI
