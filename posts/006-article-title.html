@@ -6,8 +6,7 @@
   
   <title>Post # xxx : The Title</title>
   <link rel="stylesheet" href="../assets/icons/style.css">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../assets/plugins/prismjs/prism.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/menu.css">
   <link rel="stylesheet" href="../assets/css/style.css">
@@ -25,24 +24,24 @@
 
 </head>
 <body class="">
-  <div class="menu-wrap">
-    <input type="checkbox" class="toggler">
-    <div class="hamburger"><div></div></div>
-    <div class="menu">
-      <div>
-        <nav>
-          <ul>
-            <li><a href="../index.html#articles">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <header class="">
-    <section class="flex padding-y-1 padding-x-1 vio-bg fixed-position">
-      <h1 class="white-txt margin-x-1">Nadeem's blog</h1>
   
+  <header class="">
+    <section class="flex padding-y-1 padding-x-1 vio-bg fixed-position bring-top">
+      <h1 class="white-txt margin-x-1">Nadeem's blog</h1>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <nav>
+              <ul>
+                <li><a href="../index.html#articles">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
       <nav class="margin-x-1 hide-nav">
         <ul class="flex align-m padding-x-1">
           <li class="padding-x-1 uppercase"><a class="padding-y-1" href="../index.html#articles">Home</a></li>
@@ -51,7 +50,7 @@
         </ul>
       </nav>
     </section>
-    <section class="text-c grad-bg padding-y-1 padding-x-3"></section>
+
   </header>
 
   <main class="margin-x-3 margin-y-3 padding-y-2 padding-x-2">
@@ -59,7 +58,7 @@
       <!-- <figure>
         <img src="" alt="some article image goes here"
       </figure> -->
-      <h1 class="uppercase about-main-title" style="opacity: 100% !important;">My article's title</h1>
+      <h1 class="uppercase about-main-title">My article's title</h1>
       <small class="">published on April 8 2020</small>
     </section>
     <section class="margin-y-3">
@@ -71,23 +70,23 @@
       <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit amet volutpat. Lobortis scelerisque fermentum dui faucibus in. Magna fringilla urna porttitor rhoncus dolor purus non. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Faucibus pulvinar elementum integer enim neque volutpat ac. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Etiam tempor orci eu lobortis elementum nibh. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Ut faucibus pulvinar elementum integer enim. Feugiat vivamus at augue eget arcu. Urna neque viverra justo nec ultrices dui sapien eget mi. Lobortis mattis aliquam faucibus purus in massa tempor.</p>
       <article class="">
         <pre>
-          <code>
-  int main()
-  {
-      char op;
-      float num1, num2;
-      cout << "Enter operator either + or - or * or /: ";
-      cin >> op;
-      cout << "Enter two operands: ";
-      cin >> num1 >> num2;
-      switch(op)
+          <code class="language-js">
+      int main()
       {
-              cout << num1-num2;
-              break;
-          default:
+          char op;
+          float num1, num2;
+          cout << "Enter operator either + or - or * or /: ";
+          cin >> op;
+          cout << "Enter two operands: ";
+          cin >> num1 >> num2;
+          switch(op)
+          {
+                  cout << num1-num2;
+                  break;
+              default:
+          }
+          return 0;
       }
-      return 0;
-  }
           </code>
         </pre>
       </article>
@@ -108,5 +107,6 @@
     </p>
     <h2 class="white-txt text-c">empowerd by <a href="#" target="_blank">powercoders</a></h2>
   </footer>
+  <script src="../assets/plugins/prismjs/prism.js"></script>
 </body>
 </html>

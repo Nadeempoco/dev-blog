@@ -99,7 +99,7 @@ HELPER CLAoSSES
 .flex {display: flex; align-items: center; justify-content: space-between;}
 .column {flex-direction: column;}
 .float-r {float: right; }
-.x2-column {display: flex;}
+.flex1 {display: flex; justify-content: space-between;}
 .wrap {flex-wrap: wrap; justify-content: space-evenly;}
 
 .grad-bg {background-image: linear-gradient(-125deg, #1c1118, #004b66, #280117);}
@@ -109,7 +109,7 @@ HELPER CLAoSSES
 .grey-bg {background-color: #d1e5eb;}
 .white-txt {color: wheat;}
 .box-shad {box-shadow: 0 1px 1px 0 #999999, 0 1px 20px 0 #999999;}
-.fixed-position {position: fixed; width: 100%;}
+.fixed-position {position: fixed; width: 100%; top: 0}
 .chron-order {display: flex; flex-direction: column-reverse;}
 .large-font {font-size: 1.5rem;}
 .xl-font {font-size: 2rem;}
@@ -117,6 +117,7 @@ HELPER CLAoSSES
 .about-main-title {font-size: 3rem; font-weight: 900; color: #333333; opacity: 100%;}
 .half {width: 30%;}
 .border {border: 10px solid black}
+.bring-top {z-index: 1;}
 
 
 .padding-x-1 {padding-left: 1rem; padding-right: 1rem;}
@@ -287,8 +288,8 @@ MEDIA QUERIES
 
   
 
-  .large-font {font-size: 0.9rem;}
-  .xl-font {font-size: 1rem;}
+  .large-font {font-size: 1.6rem;}
+  .xl-font {font-size: 2.5rem;}
   .about-main-title {font-size: 1.5rem;}
   
 
