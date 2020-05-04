@@ -60,76 +60,64 @@
         <small class="white-txt padding-x-2">In this blog I write about technology, business strategies, and other random stuff!</small>
       </figure>
       <p class="margin-y-3 padding-x-2 large-font">
-        <a href="" target="_blank" class="icon-mail4">   </a>
-        <a href="#" target="_blank" class="icon-linkedin2">   </a>
-        <a href="#" target="_blank" class="icon-twitter">   </a>
-        <a href="#" target="_blank" class="icon-github">   </a>
+        <a href="mailto:nadeem.khalawi@powercoders.org?subject=Mail from dev-blog" target="_blank" class="icon-mail4">   </a>
+        <a href="https://www.linkedin.com/in/nadeemkhalawi" target="_blank" class="icon-linkedin2">   </a>
+        <a href="https://twitter.com/nadeem_khl" target="_blank" class="icon-twitter">   </a>
+        <a href="https://github.com/Nadeempoco" target="_blank" class="icon-github">   </a>
       </p>
       <div><a href="#articles" class="icon-keyboard_arrow_down xl-font"></a></div>
     </section>
 
   </header>
-  <div id="articles"></div>
-  <main class="margin-x-3 margin-y-5 padding-y-2 padding-x-2 chron-order">
-    <div class="text-c margin-t-25"><a href="#articles" class="icon-keyboard_arrow_up xl-font"></a></div>
-    <article class="padding-x-1 padding-y-1">
+
+  <main class="margin-x-3 margin-y-5 padding-y-2 padding-x-2">
+    <!-- need to do something about the arrows taking me to the articles -->
+    <div id="articles"></div>
+
+    <!-- here are the featured articles, more work need to be done! -->
+    <article id="featured-article" class="padding-x-1 padding-y-1">
       <section class="margin-b-5">
-        <h3 class="uppercase">the title of my first post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
+        <h3 class="uppercase text-c">Featured Article!</h3>
+        <h3 class="uppercase text-l margin-t-10">Introducing my new mini-blog: My exercises arena!</h3>
+        <h4 class="text-l">a litile caption like published on April 8 2020</h4>
       </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/001-article-title.html">read more...</a></p>
-      <hr>
+      <p class="text-j">We have been doing many exercises and challenges lately - and more are expected to come!, I thought I'll create a new mini-blog execusivly to share with you these challanges and how I solved them...</p>
+      <p class="text-c"><a href="posts/002-my_exercises_arena.html">read more</a></p>
     </article>
-    <article class="padding-x-1 padding-y-1">
-      <section class="margin-b-5">
-        <h3 class="uppercase">the title of my second post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
-      </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/002-article-title.html">read more...</a></p>
-      <hr>
-    </article>
-    <article class="padding-x-1 padding-y-1">
-      <section class="margin-b-5">
-        <h3 class="uppercase">the title of my third post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
-      </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/003-article-title.html">read more...</a></p>
-      <hr>
-    </article>
-    <article class="padding-x-1 padding-y-1">
-      <section class="margin-b-5">
-        <h3 class="uppercase">the title of my 4th post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
-      </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/004-article-title.html">read more...</a></p>
-      <hr>
-    </article>
-    <article class="padding-x-1 padding-y-1">
-      <section class="margin-b-5">
-        <h3 class="uppercase">the title of my 5th post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
-      </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/005-article-title.html">read more...</a></p>
-      <hr>
-    </article>
-    <article class="padding-x-1 padding-y-1">
-      <section class="margin-b-5">
-        <h3 class="uppercase">the title of my 6th post</h3>
-        <small class="">a litile caption like published on April 8 2020</small>
-      </section>
-      <p class="text-j">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.</p>
-      <p class="text-r"><a href="posts/006-article-title.html">read more...</a></p>
-      <hr>
-    </article>
+    <hr class="margin-y-1">
+
+    <!-- here the articles section start, the most recent should be added to the bottom -->
+    <div class="chron-order">
+      <!-- this is the arrow to up -->
+      <div class="text-c margin-t-25"><a href="#articles" class="icon-keyboard_arrow_up xl-font no-decoration"></a></div>
+      
+      <!-- the articles go gere -->
+      <article class="padding-x-1 padding-y-1">
+        <section class="margin-b-5">
+          <h3 class="uppercase">Version control, with Git & GitHub</h3>
+          <small class="">Work in progress: last updated May 3 2020</small>
+        </section>
+        <p class="text-j">This article is to help you to get familiar with Git and GitHub. GitHub is an online platform, that help developers to share codes and resources online...</p>
+        <p class="text-r"><a href="posts/001-git_github.html">read more</a></p>
+        <hr>
+      </article>
+
+      <article class="padding-x-1 padding-y-1">
+        <section class="margin-b-5">
+          <h3 class="uppercase">Introducing my new mini-blog: My exercises arena!</h3>
+          <small class="">a litile caption like published on April 8 2020</small>
+        </section>
+        <p class="text-j">We have been doing many exercises and challenges lately - and more are expected to come!, I thought I'll create a new mini-blog execusivly to share with you these challanges and how I solved them...</p>
+        <p class="text-r"><a href="posts/002-my_exercises_arena.html">read more</a></p>
+        <hr>
+      </article>
+
+    </div>
+
    <!-- <h4><a href="my-posts.html">More posts</a></h4> -->
   </main>
   <footer class="vio-bg padding-y-3">
-    <h2 class="white-txt text-c">empowerd by <a href="#" target="_blank">powercoders</a></h2>
+    <h2 class="white-txt text-c">empowerd by <a href="https://powercoders.org/" target="_blank">powercoders</a></h2>
   </footer>
 </body>
 </html>
