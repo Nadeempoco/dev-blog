@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Git & GitHub</title>
+  <title>JavaScript Operators</title>
   <link rel="stylesheet" href="../assets/plugins/prismjs/prism.css">
   <link rel="stylesheet" href="../assets/icons/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap" rel="stylesheet">
@@ -62,78 +62,97 @@
       <!-- <figure>
         <img src="" alt="some article image goes here"
       </figure> -->
-      <h1 class="uppercase about-main-title">Git & GitHub</h1>
-      <small class="">work in progress, last updated: May 3, 2020</small>
+      <h1 class="uppercase about-main-title">JavaScript Operators</h1>
+      <small class="">work in progress, last updated: May 14, 2020</small>
     </section>
+
+    <!-- ! <span class="bold">GitHub</span> -->
 
     <section class="margin-y-3">
       <h2 class="text-j margin-t-10">Introduction</h2>
       <p class="text-j">
-        This article is to help you to get familiar with Git and GitHub. <span class="bold">GitHub</span> is an online
-        platform, that help developers to share codes and resources online. <span class="bold">Git</span> is an
-        open-source version control software that helps developers to collaborate and modify codes without the headech
-        of using emails and shared cloud tools. it also helps them to track changes to the code and retrieve previous
-        versions of the code. Using Git, developers can retrieve and upload codes from and to GitHub, giving them the
-        ability to work on the code locally before pushing it up to the platform. This article is meant for Linux users,
-        but most of the information is also valid for Windows and IOS users.
+        In JavaScript operators are used to perform math operations on variables and values, check if they fullfil a
+        condition, and give more use to our functions. The following math
+        operations are supported: Addition +, Subtraction -, Multiplication *, Division /, Remainder %, and
+        Exponentiation **. In Addition; there is a set of comparison and logical operators.
       </p>
     </section>
 
-
     <section class="margin-y-3">
-      <h2 class="text-j margin-t-10">Installing Git on Ubuntu</h2>
+      <h2 class="text-j margin-t-10">Primary calculation operators</h2>
 
-      <h4 class="text-j">Open your terminal, and update your packages. You might be asked to
-        provide the administrator password</h4>
-      <pre class="language-command-line"><code>sudo apt update</code></pre>
-
-      <h4 class="text-j margin-t-10">Install the lastest release using apt-get</h4>
-      <pre class="language-command-line"><code>sudo apt-get install git</code></pre>
-
-      <h4 class="text-j margin-t-10">Define your default username and email, by using the following two
-        commands</h4>
-      <pre class="language-command-line">
+      <p class="text-j">The primary operator in math are addition, subtraction, amultiplication and division. They are
+        straightforward! Below are some examples;</p>
+      <pre class="language-javascript">
         <code>
-        git config --global user.name "Your User Name"
-        git config --global user.email "your.email@domain.com"
+          console.log( 2 + 2 ); // 4
+          console.log( 8 - 3 ); // 5
+          console.log( 4 * 5 ); // 20
+          console.log( 15 / 3 ); // 5
         </code>
       </pre>
     </section>
 
     <section class="margin-y-3">
-      <h2 class="text-j margin-t-10">Starting with Git</h2>
+      <h2 class="text-j margin-t-10">Remainder %</h2>
 
-      <h4 class="text-j">After creating a new repo in your <a href="https://github.com/new">GitHub</a>, you
-        can start working on your project. but first let's move your
-        project to your computer. This way, you can work on the code localy using your favorate coding software. To do
-        so, you need to clone your repo form GitHub, and use the git clone command.</h4>
-      <pre class="language-command-line"><code>git clone https://github.com/YourUserName/YourRepo.git</code></pre>
-
-      <h4 class="text-j margin-t-10">To check your repo status use</h4>
-      <pre class="language-command-line"><code>git status</code></pre>
-
-      <h2 class="text-j margin-t-10">Controling your repo </h2>
-
-      <h4 class="text-j">Adding changes to your repo</h4>
-      <pre class="language-command-line"><code>
-        git add.
-        git add file-name.extention
-      </code></pre>
-
-      <h4 class="text-j margin-t-10">Committing changes to your repo</h4>
-      <pre class="language-command-line"><code>
-        git committ -m "put a description of the changes you are committing"
-      </code></pre>
-
-      <h4 class="text-j margin-t-10">Pushing changes to your repo, you might be asked to enter you username
-        and/or password</h4>
-      <pre class="language-command-line"><code>
-        git push
-      </code></pre>
-
+      <p class="text-j">The remainder operator %, despite its appearance, is not related to percents. The result of a %
+        b is the remainder of the integer division of a by b.</p>
+      <pre class="language-javascript">
+        <code>
+          console.log( 5 % 2 ); // 1, a remainder of 5 divided by 2
+          console.log( 8 % 3 ); // 2, a remainder of 8 divided by 3
+        </code>
       </pre>
     </section>
 
+    <section class="margin-y-3">
+      <h2 class="text-j margin-t-10">Exponentiation **</h2>
+
+      <p class="text-j">The exponentiation operator a ** b multiplies a by itself b times.</p>
+      <pre class="language-javascript">
+        <code>
+          console.log( 2 ** 2 ); // 4  (2 multiplied by itself 2 times)
+          console.log( 2 ** 3 ); // 8  (2 * 2 * 2, 3 times)
+          console.log( 2 ** 4 ); // 16 (2 * 2 * 2 * 2, 4 times)
+          console.log( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root)
+          console.log( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+        </code>
+      </pre>
+    </section>
+
+
+    <section class="margin-y-3">
+      <h2 class="text-j margin-t-10">Comparision & Logical operators</h2>
+      <p class="text-j">Comparison operators are operators that compare values and return true or false . The operators
+        include: > , < ,>= , <= ,===, and ! (not).<br> Logical operators are operators that combine multiple boolean
+            expressions or values and provide
+            a single boolean output. The operators include: && , || , and ! . <br> Below are some examples of how these
+            operators are used as conditions in functions</p>
+      <pre class="language-javascript">
+          <code>
+            if(num > 5) {
+              console.log("Simple check:", "TRUE!");
+            }
+
+            if(num === 5) {
+              console.log("Strict equality:", "TRUE!");
+            }
+
+            if(num > 5 || num2 < 30) {
+              console.log("Double check with OR:", "TRUE");
+            }
+
+            if(num > 5 && num2 < 30) {
+              console.log("Double check with AND:", "TRUE");
+            }
+
+            if(num != "5") {
+              console.log("not operator: TRUE!");
+            }
+          </code>
+      </pre>
+    </section>
 
   </main>
   <footer class="vio-bg padding-y-3">

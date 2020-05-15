@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Git & GitHub</title>
+  <title>JavaScript Functions</title>
   <link rel="stylesheet" href="../assets/plugins/prismjs/prism.css">
   <link rel="stylesheet" href="../assets/icons/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap" rel="stylesheet">
@@ -62,75 +62,56 @@
       <!-- <figure>
         <img src="" alt="some article image goes here"
       </figure> -->
-      <h1 class="uppercase about-main-title">Git & GitHub</h1>
-      <small class="">work in progress, last updated: May 3, 2020</small>
+      <h1 class="uppercase about-main-title">JavaScript Functions</h1>
+      <small class="">work in progress, last updated: May 14, 2020</small>
     </section>
+
+    <!-- ! <span class="bold">GitHub</span> -->
 
     <section class="margin-y-3">
       <h2 class="text-j margin-t-10">Introduction</h2>
       <p class="text-j">
-        This article is to help you to get familiar with Git and GitHub. <span class="bold">GitHub</span> is an online
-        platform, that help developers to share codes and resources online. <span class="bold">Git</span> is an
-        open-source version control software that helps developers to collaborate and modify codes without the headech
-        of using emails and shared cloud tools. it also helps them to track changes to the code and retrieve previous
-        versions of the code. Using Git, developers can retrieve and upload codes from and to GitHub, giving them the
-        ability to work on the code locally before pushing it up to the platform. This article is meant for Linux users,
-        but most of the information is also valid for Windows and IOS users.
+        Functions are the main “building blocks” of a program. They allow the code to be called many times without
+        repetition. I would say they are also the most entertaing part of writing a code!
+        Some functions are built-in functions, like <code class="language-javascript">alert(message)</code> and <code
+          class="language-javascript">prompt(message)</code> but we can create our own functions as well.
       </p>
     </section>
 
 
     <section class="margin-y-3">
-      <h2 class="text-j margin-t-10">Installing Git on Ubuntu</h2>
+      <h2 class="text-j margin-t-10">Function Declaration</h2>
 
-      <h4 class="text-j">Open your terminal, and update your packages. You might be asked to
-        provide the administrator password</h4>
-      <pre class="language-command-line"><code>sudo apt update</code></pre>
-
-      <h4 class="text-j margin-t-10">Install the lastest release using apt-get</h4>
-      <pre class="language-command-line"><code>sudo apt-get install git</code></pre>
-
-      <h4 class="text-j margin-t-10">Define your default username and email, by using the following two
-        commands</h4>
-      <pre class="language-command-line">
+      <p class="text-j">To create a function we need to declare it like this</p>
+      <pre class="language-javascript">
         <code>
-        git config --global user.name "Your User Name"
-        git config --global user.email "your.email@domain.com"
+        function showMessage() {
+        alert( 'Hello Coders!' );
+      }
         </code>
       </pre>
-    </section>
 
-    <section class="margin-y-3">
-      <h2 class="text-j margin-t-10">Starting with Git</h2>
+      <p class="text-j margin-t-10">The <span class="bold">function</span> keyword goes first, then goes the name of the
+        function. We naming a function, use the <span class="bold">lowerCamelCase</span>. Then we write a list of
+        parameters between the parentheses separated by a comma,and finally the code of the
+        function, between curly brackets.</p>
+      <pre class="language-javascript">
+        <code>
+          function nameOfMyFunction(parameter1, parameter2) {
+            the code goes here;
+          }
+        </code>
+      </pre>
 
-      <h4 class="text-j">After creating a new repo in your <a href="https://github.com/new">GitHub</a>, you
-        can start working on your project. but first let's move your
-        project to your computer. This way, you can work on the code localy using your favorate coding software. To do
-        so, you need to clone your repo form GitHub, and use the git clone command.</h4>
-      <pre class="language-command-line"><code>git clone https://github.com/YourUserName/YourRepo.git</code></pre>
+      <p class="text-j margin-t-10">To call the function we use its name nameOfMyFunction(argument1, argument2). we also
+        provide arguments that we want the function to use.
 
-      <h4 class="text-j margin-t-10">To check your repo status use</h4>
-      <pre class="language-command-line"><code>git status</code></pre>
-
-      <h2 class="text-j margin-t-10">Controling your repo </h2>
-
-      <h4 class="text-j">Adding changes to your repo</h4>
-      <pre class="language-command-line"><code>
-        git add.
-        git add file-name.extention
-      </code></pre>
-
-      <h4 class="text-j margin-t-10">Committing changes to your repo</h4>
-      <pre class="language-command-line"><code>
-        git committ -m "put a description of the changes you are committing"
-      </code></pre>
-
-      <h4 class="text-j margin-t-10">Pushing changes to your repo, you might be asked to enter you username
-        and/or password</h4>
-      <pre class="language-command-line"><code>
-        git push
-      </code></pre>
-
+        In the example below, we call the function twice, without the need to write the code twice. </p>
+      <pre class="language-javascript">
+        <code>
+          nameOfMyFunction(argument1, argument2);
+          nameOfMyFunction(argumentA, argumentB);
+        </code>
       </pre>
     </section>
 
